@@ -1,0 +1,23 @@
+name = "intellipay"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[dispatch_namespace]]
+binding = "DISPATCH"
+namespace = "galactic-products"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "intellipay"
+database_id = "placeholder-will-be-set-on-provision"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "placeholder-will-be-set-on-provision"
+
+[vars]
+ENVIRONMENT = "production"
+
+[ai]
+binding = "AI"

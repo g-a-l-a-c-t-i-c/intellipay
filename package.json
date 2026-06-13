@@ -1,0 +1,26 @@
+{
+  "name": "intellipay",
+  "version": "0.1.0",
+  "description": "AI-first privacy-compliant commerce intelligence platform",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "@g-a-l-a-c-t-i-c/cloudflare": "*",
+    "@g-a-l-a-c-t-i-c/platform-types": "*",
+    "@g-a-l-a-c-t-i-c/tier-guard": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@cloudflare/vitest-pool-workers": "^0.5.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0",
+    "wrangler": "^3.75.0"
+  }
+}
