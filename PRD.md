@@ -1,6 +1,6 @@
 # Product Requirements Document
 
-_Last updated: 2026-06-13. Full PRD at `/Users/am/galactic/PRD/intellipay-PRD.md`._
+_Last updated: 2026-06-13. Full PRD: [docs/PRD.md](./docs/PRD.md) (source of truth; this file is a summary)._
 
 ## Vision
 
